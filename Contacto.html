@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="/img/Premium Vector _ Old school tattoo machine drawing design.jfif" alt="" id="logo">
+        <nav>
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Tu_Diseño.html">Tu Diseño</a></li>
+                <li><a href="Galeria.html">Galería</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <i class='bx bxl-instagram-alt' style='color:#fffdfd'></i>
+            <i class='bx bxl-facebook-circle' style='color:#ffffff'></i>
+            <i class='bx bxl-twitter' style='color:rgb(255, 255, 255)'></i>
+            <i class='bx bxl-youtube' style='color:#ffffff'></i>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Contacto</h1>
+
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+        
+            <input type="submit" value="Enviar">
+        </form>    
+    </div>
+</body>
+</html>

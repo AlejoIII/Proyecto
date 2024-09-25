@@ -1,0 +1,39 @@
+@import url(EduTas.css);
+@import url(Oswald.css);
+@import url(Trick.css);
+@import url(Upload.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:   #1a1a1a;
+    display: flex;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/Rene.jpg);
+    flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container h2 {
+    font-family: Oswald;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 5px #000000;
+    margin-bottom: 100px;
+}
+
+
